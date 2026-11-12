@@ -13,7 +13,7 @@ router.get('/login', function(req, res, next) {
 
 /* Página de contacto */
 router.get('/contacto', function(req, res, next) {
-  res.render('contacto', { title: 'Contacto' });
+  res.render('contact', { title: 'Contacto' });
 });
 
 module.exports = router;
