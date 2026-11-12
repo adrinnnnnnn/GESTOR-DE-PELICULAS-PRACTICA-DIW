@@ -1,0 +1,43 @@
+.hero {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-light);
+    text-align: center;
+    padding: 3rem 1.25rem;
+    border-radius: 0.5rem;
+  }
+  
+  .hero h1 {
+    color: var(--text-color-light);
+    margin-top: 0;
+  }
+  
+  .hero p {
+    max-width: 40rem;
+    margin: 0 auto 1.5rem auto;
+  }
+  
+  .hero-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    background-color: var(--text-color-light);
+    color: var(--background-color-dark);
+    border: 0.125rem solid var(--text-color-light);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.3rem;
+  }
+  
+  .button:hover {
+    opacity: 0.85;
+  }
+  
+  .button-secondary {
+    background-color: transparent;
+    color: var(--text-color-light);
+  }
