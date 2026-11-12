@@ -32,7 +32,7 @@ header {
     text-decoration: underline;
   }
   
-  /* Pantallas pequeñas */
+
   @media (max-width: 600px) {
     header {
       flex-direction: column;

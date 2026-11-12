@@ -1,6 +1,70 @@
 <%- include('partials/header') %>
 
-<h1><%= title %></h1>
-<p>Aquí irá la página inicial.</p>
+<section class="hero">
+    <h1>Gestiona tu colección de películas</h1>
+    <p>
+      Con esta aplicación puedes llevar el control de todas las copias de películas
+      que tienes en casa: DVD, Blu-ray o formato digital. Inicia sesión para ver
+      tu colección y consultar los detalles de cada copia.
+    </p>
+    <div class="hero-links">
+      <a href="/login" class="button">Iniciar sesión</a>
+      <a href="/contacto" class="button button-secondary">Contacto</a>
+    </div>
+  </section>
+  
+  <section class="movies">
+    <h2>Películas recientes</h2>
+    <div class="movies-list">
+      <article class="movie-card">
+        <img src="https://picsum.photos/seed/dune/300/450" alt="Cartel de Dune: Parte Dos">
+        <div class="movie-info">
+          <h3>Dune: Parte Dos</h3>
+          <p>2024 · Ciencia ficción</p>
+          <p class="movie-director">Dirigida por Denis Villeneuve</p>
+        </div>
+      </article>
+      <article class="movie-card">
+        <img src="https://picsum.photos/seed/conclave/300/450" alt="Cartel de Cónclave">
+        <div class="movie-info">
+          <h3>Cónclave</h3>
+          <p>2024 · Thriller</p>
+          <p class="movie-director">Dirigida por Edward Berger</p>
+        </div>
+      </article>
+      <article class="movie-card">
+        <img src="https://picsum.photos/seed/flow/300/450" alt="Cartel de Flow">
+        <div class="movie-info">
+          <h3>Flow</h3>
+          <p>2024 · Animación</p>
+          <p class="movie-director">Dirigida por Gints Zilbalodis</p>
+        </div>
+      </article>
+      <article class="movie-card">
+        <img src="https://picsum.photos/seed/anora/300/450" alt="Cartel de Anora">
+        <div class="movie-info">
+          <h3>Anora</h3>
+          <p>2024 · Drama</p>
+          <p class="movie-director">Dirigida por Sean Baker</p>
+        </div>
+      </article>
+      <article class="movie-card">
+        <img src="https://picsum.photos/seed/sinners/300/450" alt="Cartel de Los pecadores">
+        <div class="movie-info">
+          <h3>Los pecadores</h3>
+          <p>2025 · Terror</p>
+          <p class="movie-director">Dirigida por Ryan Coogler</p>
+        </div>
+      </article>
+      <article class="movie-card">
+        <img src="https://picsum.photos/seed/wicked/300/450" alt="Cartel de Wicked">
+        <div class="movie-info">
+          <h3>Wicked</h3>
+          <p>2024 · Musical</p>
+          <p class="movie-director">Dirigida por Jon M. Chu</p>
+        </div>
+      </article>
+    </div>
+  </section>
 
 <%- include('partials/footer') %>
