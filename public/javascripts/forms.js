@@ -1,12 +1,11 @@
-// Simula el envío de los formularios (no hay backend todavía)
-var form = document.querySelector('.form');
-var message = document.querySelector('.form-message');
+// Simula el envío del formulario (todavía no hay backend)
+var formulario = document.querySelector('form');
+var mensaje = document.querySelector('.message');
 
-if (form) {
-  form.addEventListener('submit', function (event) {
+if (formulario) {
+  formulario.addEventListener('submit', function (event) {
     event.preventDefault();
-    message.textContent = form.dataset.message;
-    message.hidden = false;
-    form.reset();
+    mensaje.hidden = false;
+    formulario.reset();
   });
 }
