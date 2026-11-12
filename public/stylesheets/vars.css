@@ -1,10 +1,9 @@
-
-
 :root {
-    --background-color-dark: #1f2a44;
-    --background-color-page: #f4f4f4;
-    --text-color-default: #333;
-    --text-color-light: #ffffff;
-    --link-color: #0b6bcb;
-    --title-font: Arial, Helvetica, sans-serif;
-  }
+  --background-color-dark: #1f2a44;
+  --background-color-page: #f4f4f4;
+  --text-color-default: #333;
+  --text-color-light: #ffffff;
+  --background-color-accent: #ffc836;
+  --link-color: #0b6bcb;
+  --title-font: Arial, Helvetica, sans-serif;
+}

@@ -1,70 +1,88 @@
 <%- include('partials/header') %>
 
 <section class="hero">
-    <h1>Gestiona tu colección de películas</h1>
-    <p>
-      Con esta aplicación puedes llevar el control de todas las copias de películas
-      que tienes en casa: DVD, Blu-ray o formato digital. Inicia sesión para ver
-      tu colección y consultar los detalles de cada copia.
-    </p>
-    <div class="hero-links">
-      <a href="/login" class="button">Iniciar sesión</a>
-      <a href="/contacto" class="button button-secondary">Contacto</a>
-    </div>
-  </section>
-  
-  <section class="movies">
-    <h2>Películas recientes</h2>
-    <div class="movies-list">
-      <article class="movie-card">
-        <img src="https://picsum.photos/seed/dune/300/450" alt="Cartel de Dune: Parte Dos">
-        <div class="movie-info">
-          <h3>Dune: Parte Dos</h3>
-          <p>2024 · Ciencia ficción</p>
-          <p class="movie-director">Dirigida por Denis Villeneuve</p>
-        </div>
-      </article>
-      <article class="movie-card">
-        <img src="https://picsum.photos/seed/conclave/300/450" alt="Cartel de Cónclave">
-        <div class="movie-info">
-          <h3>Cónclave</h3>
-          <p>2024 · Thriller</p>
-          <p class="movie-director">Dirigida por Edward Berger</p>
-        </div>
-      </article>
-      <article class="movie-card">
-        <img src="https://picsum.photos/seed/flow/300/450" alt="Cartel de Flow">
-        <div class="movie-info">
-          <h3>Flow</h3>
-          <p>2024 · Animación</p>
-          <p class="movie-director">Dirigida por Gints Zilbalodis</p>
-        </div>
-      </article>
-      <article class="movie-card">
-        <img src="https://picsum.photos/seed/anora/300/450" alt="Cartel de Anora">
-        <div class="movie-info">
-          <h3>Anora</h3>
-          <p>2024 · Drama</p>
-          <p class="movie-director">Dirigida por Sean Baker</p>
-        </div>
-      </article>
-      <article class="movie-card">
-        <img src="https://picsum.photos/seed/sinners/300/450" alt="Cartel de Los pecadores">
-        <div class="movie-info">
-          <h3>Los pecadores</h3>
-          <p>2025 · Terror</p>
-          <p class="movie-director">Dirigida por Ryan Coogler</p>
-        </div>
-      </article>
-      <article class="movie-card">
-        <img src="https://picsum.photos/seed/wicked/300/450" alt="Cartel de Wicked">
-        <div class="movie-info">
-          <h3>Wicked</h3>
-          <p>2024 · Musical</p>
-          <p class="movie-director">Dirigida por Jon M. Chu</p>
-        </div>
-      </article>
-    </div>
-  </section>
+  <h1>Gestiona tu colección de películas</h1>
+  <p>
+    Con esta aplicación puedes llevar el control de todas las copias de películas
+    que tienes en casa: DVD, Blu-ray o formato digital. Inicia sesión para ver
+    tu colección y consultar los detalles de cada copia.
+  </p>
+  <div class="hero-links">
+    <a href="/login" class="button">Iniciar sesión</a>
+    <a href="/contacto" class="button button-secondary">Contacto</a>
+  </div>
+</section>
+
+<section class="movies">
+  <h2>Películas recientes</h2>
+  <div class="movies-list">
+    <article class="movie-card">
+      <div class="movie-poster">
+        <img src="https://placehold.co/300x450/1f2a44/ffffff?text=Dune+Parte+Dos" alt="Cartel de Dune: Parte Dos">
+        <span class="movie-genre">Ciencia ficción</span>
+      </div>
+      <div class="movie-info">
+        <h3>Dune: Parte Dos</h3>
+        <p class="movie-year">2024</p>
+        <p class="movie-director">Dirigida por Denis Villeneuve</p>
+      </div>
+    </article>
+    <article class="movie-card">
+      <div class="movie-poster">
+        <img src="https://placehold.co/300x450/1f2a44/ffffff?text=Conclave" alt="Cartel de Cónclave">
+        <span class="movie-genre">Thriller</span>
+      </div>
+      <div class="movie-info">
+        <h3>Cónclave</h3>
+        <p class="movie-year">2024</p>
+        <p class="movie-director">Dirigida por Edward Berger</p>
+      </div>
+    </article>
+    <article class="movie-card">
+      <div class="movie-poster">
+        <img src="https://placehold.co/300x450/1f2a44/ffffff?text=Flow" alt="Cartel de Flow">
+        <span class="movie-genre">Animación</span>
+      </div>
+      <div class="movie-info">
+        <h3>Flow</h3>
+        <p class="movie-year">2024</p>
+        <p class="movie-director">Dirigida por Gints Zilbalodis</p>
+      </div>
+    </article>
+    <article class="movie-card">
+      <div class="movie-poster">
+        <img src="https://placehold.co/300x450/1f2a44/ffffff?text=Anora" alt="Cartel de Anora">
+        <span class="movie-genre">Drama</span>
+      </div>
+      <div class="movie-info">
+        <h3>Anora</h3>
+        <p class="movie-year">2024</p>
+        <p class="movie-director">Dirigida por Sean Baker</p>
+      </div>
+    </article>
+    <article class="movie-card">
+      <div class="movie-poster">
+        <img src="https://placehold.co/300x450/1f2a44/ffffff?text=Los+pecadores" alt="Cartel de Los pecadores">
+        <span class="movie-genre">Terror</span>
+      </div>
+      <div class="movie-info">
+        <h3>Los pecadores</h3>
+        <p class="movie-year">2025</p>
+        <p class="movie-director">Dirigida por Ryan Coogler</p>
+      </div>
+    </article>
+    <article class="movie-card">
+      <div class="movie-poster">
+        <img src="https://placehold.co/300x450/1f2a44/ffffff?text=Wicked" alt="Cartel de Wicked">
+        <span class="movie-genre">Musical</span>
+      </div>
+      <div class="movie-info">
+        <h3>Wicked</h3>
+        <p class="movie-year">2024</p>
+        <p class="movie-director">Dirigida por Jon M. Chu</p>
+      </div>
+    </article>
+  </div>
+</section>
 
 <%- include('partials/footer') %>
