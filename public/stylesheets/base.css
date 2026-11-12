@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--title-font);
+    background-color: var(--background-color-page);
+    color: var(--text-color-default);
+    line-height: 1.5;
+  }
+  
+  h1 {
+    color: var(--background-color-dark);
+  }
+  
+  a {
+    color: var(--link-color);
+  }

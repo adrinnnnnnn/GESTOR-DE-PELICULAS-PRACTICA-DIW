@@ -1,0 +1,45 @@
+header {
+    background-color: var(--background-color-dark);
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--text-color-light);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    height: 3rem;
+    width: auto;
+  }
+  
+  nav a {
+    color: var(--text-color-light);
+    text-decoration: none;
+    margin-left: 1.25rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Pantallas pequeñas */
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+  
+    nav a {
+      margin: 0 0.6rem;
+    }
+  }
